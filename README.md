@@ -6,7 +6,7 @@ This repository contains four mini-projects completed as part of my Business Com
 
 ## Projects
 
-1. **Descriptive stats & correlation** (`data/cars.csv`)  
+1. **Descriptive stats & correlation** (`cars.csv`)  
    - Load the cars dataset  
    - Compute descriptive statistics with `pandas`  
    - Explore correlations (e.g., MPG vs weight, displacement)  
