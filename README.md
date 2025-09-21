@@ -1,20 +1,27 @@
 # Python Business Computing Portfolio
 
-Four mini-projects that demonstrate core data skills:
+This repository contains four mini-projects completed as part of my Business Computing coursework. They demonstrate practical applications of Python for data analysis, visualisation, and simple database design.
 
-1. **Descriptive stats & correlation** (cars dataset)
-2. **Text analytics** (word counts + categories)
-3. **Salary vs Unemployment** (scatter + grouped bars)
-4. **Simple relational DB** (branches/teams schema + lookups)
+---
 
-## How to run
-1. `pip install -r requirements.txt`
-2. Open notebooks (start with `notebooks/problem_1_stats.ipynb`) and run all cells.
+## Projects
 
-## Repo map
-- `notebooks/` — Jupyter notebooks per problem  
-- `data/` — small CSVs for demos  
-- `images/` — any charts you want to save (optional)
+1. **Descriptive stats & correlation** (`data/cars.csv`)  
+   - Load the cars dataset  
+   - Compute descriptive statistics with `pandas`  
+   - Explore correlations (e.g., MPG vs weight, displacement)  
+   - Visualise relationships with scatter plots  
 
-## Notes
-- Data files here are small public/synthetic samples so the notebooks run quickly.
+2. **Text analytics** (user reviews dataset)  
+   - Count word frequencies  
+   - Categorise reviews into positive/negative buckets  
+   - Produce summary tables and bar charts  
+
+3. **Salary vs Unemployment** (college majors dataset)  
+   - Load salary and unemployment data  
+   - Create scatter plots of salary vs unemployment rate  
+   - Group data by category and compare averages  
+
+4. **Simple relational database** (branches & teams)  
+   - Define a schema with two related tables  
+   - Insert sample reco
